@@ -116,6 +116,7 @@ body {
 
 .nav-links a:hover {
   color: #9d00ff;
+  text-decoration: none;
 }
 
 /* MENU ICON (Hidden on Desktop) */
