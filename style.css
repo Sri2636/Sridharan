@@ -22,6 +22,13 @@
   font-style: normal;
 }
 
+/*Milchella Font*/
+@font-face {
+    font-family: "Milchella";
+    src: url(Asset\Fonts\Milchella-Regular.ttf) format("ttf");
+}
+
+
 /* General Reset */
 * {
   margin: 0;
@@ -81,14 +88,14 @@ body {
 
 /* LOGO (Desktop: Left) */
 .logo {
-    font-family: 'romie', sans-serif;
+    font-family: 'milchella', sans-serif;
     font-weight: 900;
     letter-spacing: 0.5cap;
-    font-size: 18px;
+    font-size: 22px;
     color: #333;;
     text-transform: uppercase;
     position: absolute;
-    left: 40px;
+    left: 50px;
 }
 
 /* NAV LINKS (Desktop: Right) */
@@ -116,7 +123,6 @@ body {
 
 .nav-links a:hover {
   color: #9d00ff;
-  text-decoration: none;
 }
 
 /* MENU ICON (Hidden on Desktop) */
@@ -135,6 +141,8 @@ body {
 @media (max-width: 700px) {
   /* Move Menu Icon to the Left */
   .menu-icon {
+    font-family: 'romie';
+    font-weight: lighter;
     display: block;
     position: absolute;
     left: 20px;
@@ -144,7 +152,7 @@ body {
 
   /* Center the Logo */
   .logo {
-    left: 55%;
+    left: 50%;
     transform: translateX(-50%);
   }
 
@@ -246,7 +254,7 @@ section.showcase figure a {
 
 @media screen and (max-width: 700px) {
     section.showcase figure a {
-        height:70vh
+        height:35vh
     }
 }
 
