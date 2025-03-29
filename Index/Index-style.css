@@ -13,6 +13,12 @@
   font-style: normal;
 }
 
+/*Milchella Font*/
+@font-face {
+  font-family: "Milchella";
+  src: url(Asset\Fonts\Milchella-Regular.ttf) format("ttf");
+}
+
   
   /* MOBILE MODE */
   @media (max-width: 700px) {
@@ -66,7 +72,7 @@
   
   /* LOGO (Desktop: Left) */
   .logo {
-      font-family: 'romie', sans-serif;
+      font-family: 'Milchella', sans-serif;
       font-weight: 900;
       letter-spacing: 0.5cap;
       font-size: 18px;
@@ -472,6 +478,7 @@
     justify-content: space-around;
 }
 
+
 .style-85 {
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
@@ -821,8 +828,10 @@ body,html {
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #373737
+    color: #373737;
+    padding: 0 0 0;
 }
+
 
 p {
     margin: inherit;
@@ -986,14 +995,14 @@ footer#MainFooter div:last-child {
 
 /* LOGO (Desktop: Left) */
 .logo {
-    font-family: 'romie', sans-serif;
+    font-family: 'Milchella', sans-serif;
     font-weight: 900;
     letter-spacing: 0.5cap;
-    font-size: 18px;
+    font-size: 22px;
     color: #333;;
     text-transform: uppercase;
     position: absolute;
-    left: 40px;
+    left: 50px;
 }
 
 /* NAV LINKS (Desktop: Right) */
@@ -1050,7 +1059,7 @@ footer#MainFooter div:last-child {
 
   /* Center the Logo */
   .logo {
-    left: 55%;
+    left: 50%;
     transform: translateX(-50%);
   }
 
@@ -1072,6 +1081,21 @@ footer#MainFooter div:last-child {
     display: block;
     padding: 5px 0;
   }
+}
 
-  /* Show Nav Links When Active */
+/* Mobile M (375px) */
+@media (max-width: 400px) {
+    .style-84 {
+        justify-content: space-around; /* Match alignment of Mobile L */
+        gap: 20px; /* Adjust gap between boxes */
+    }
+
+    .style-85 {
+        width: 17.5rem; /* Ensure consistent box width */
+        padding: 0px 20px 50px; /* Adjust padding for smaller screens */
+    }
+
+    .style-88 {
+        height: 250px; /* Adjust image height for consistency */
+    }
 }
