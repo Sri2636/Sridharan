@@ -484,7 +484,7 @@
     -webkit-font-smoothing: antialiased;
     color: rgb(55, 55, 55);
     width: 17.5rem;
-    padding: 0px 29.75px 77px;
+    padding: 0px 20px 50px;
 }
 
 .style-86 {
@@ -505,7 +505,6 @@
     width: 100%;
     height: 272.991px;
     overflow: hidden;
-    border: 0.793651px solid rgb(128, 128, 128);
 }
 
 .style-88 {
@@ -515,7 +514,7 @@
     filter: grayscale(0);
     transition: 1s;
     width: 100%;
-    height: 271.404px;
+    height: 250px;
     display: inline-block;
     object-fit: cover;
 }
@@ -558,7 +557,7 @@
     -webkit-font-smoothing: antialiased;
     color: rgb(55, 55, 55);
     width: 17.5rem;
-    padding: 0px 29.75px 77px;
+    padding: 0px 20px 50px;
 }
 
 .style-93 {
@@ -579,7 +578,6 @@
     width: 100%;
     height: 272.991px;
     overflow: hidden;
-    border: 0.793651px solid rgb(128, 128, 128);
 }
 
 .style-95 {
@@ -589,7 +587,7 @@
     filter: grayscale(0);
     transition: 1s;
     width: 100%;
-    height: 271.404px;
+    height: 250px;
     display: inline-block;
     object-fit: cover;
 }
@@ -1083,19 +1081,16 @@ footer#MainFooter div:last-child {
   }
 }
 
-/* Mobile M (375px) */
+/* Mobile S (320px) and Mobile M (375px to 400px) */
 @media (max-width: 400px) {
     .style-84 {
-        justify-content: space-around; /* Match alignment of Mobile L */
-        gap: 20px; /* Adjust gap between boxes */
+        justify-content: space-between; /* Match alignment of Mobile L */
+        flex-wrap: wrap; /* Ensure boxes wrap properly */
+        gap: 30px; /* Adjust gap between boxes */
     }
 
-    .style-85 {
-        width: 17.5rem; /* Ensure consistent box width */
-        padding: 0px 20px 50px; /* Adjust padding for smaller screens */
-    }
-
-    .style-88 {
-        height: 250px; /* Adjust image height for consistency */
+    .style-85, .style-92 {
+        width: calc(50% - 15px); /* Ensure two boxes fit per row */
+        padding: 0px 10px 40px; /* Adjust padding for smaller screens */
     }
 }
