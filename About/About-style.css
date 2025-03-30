@@ -25,7 +25,7 @@
 /*Milchella Font*/
 @font-face {
     font-family: "Milchella";
-    src: url(Asset\Fonts\Milchella-Regular.ttf) format("ttf");
+    src: url("Asset/Fonts/Milchella-Regular.ttf") format("truetype");
 }
 
 /* General Reset */
