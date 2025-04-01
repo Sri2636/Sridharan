@@ -176,6 +176,13 @@ body {
         z-index: 1000; /* Ensure it appears above other elements */
         overflow: hidden; /* Prevent content overflow */
     }
+
+      /* Remove underline from navbar logo and links */
+    .nav-links a, 
+    .logo a {
+      text-decoration: none; /* Remove underline */
+  }
+
 }
 
 

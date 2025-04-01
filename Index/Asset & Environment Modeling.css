@@ -140,6 +140,11 @@ body {
 .nav-links a:hover {
   color: #9d00ff;
 }
+  /* Remove underline from navbar logo and links */
+  .nav-links a, 
+  .logo a {
+      text-decoration: none; /* Remove underline */
+  }
 
 /* MENU ICON (Hidden on Desktop) */
 .menu-icon {
@@ -186,7 +191,14 @@ body {
         text-align: center;
         padding: 10px 0;
     }
+  /* Remove underline from navbar logo and links */
+  .nav-links a, 
+  .logo a {
+      text-decoration: none; /* Remove underline */
+  }
+
 }
+
 
 
 section#Content {
