@@ -3,7 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
-@import url('');
 
 /* Romie Font */
 @font-face {
@@ -29,19 +28,10 @@
     src: url("../Asset/Fonts/Milchella-Regular.woff2") format("woff2");
 }
 
-@font-face {
-    font-family: Unica77LLSub-RegularSubset;
-    src: url(D:\Website\Newfolder\asset\dist\fonts\Romie-Regular.bc853199.woff) format("woff2")
-}
-
-@font-face {
-    font-family: Unica77LLSub-RegularSubset;
-    src: url(D:\Website\Newfolder\asset\dist\fonts\Romie-Regular.bc853199.woff) format("woff")
-}
 
 @font-face {
     font-family: Romie-Regular;
-    src: url(../Asset/Fonts/romie-regular.woff2) format("woff")
+    src: url("../Asset/Fonts/romie-regular.woff2") format("woff")
 }
 
 /* General Reset */
