@@ -2229,6 +2229,12 @@ img.layout {
   right: 50px;
 }
 
+    /* Remove underline from navbar logo and links */
+    .nav-links a, 
+    .logo a {
+        text-decoration: none; /* Remove underline */
+    }
+    
 .nav-links li {
   display: inline;
 }
@@ -2290,4 +2296,11 @@ img.layout {
         text-align: center;
         padding: 10px 0;
     }
+    
+
+        /* Remove underline from navbar logo and links */
+        .nav-links a, 
+        .logo a {
+            text-decoration: none; /* Remove underline */
+        }
 }
