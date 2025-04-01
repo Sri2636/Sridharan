@@ -7,8 +7,8 @@
 /* Romie Font */
 @font-face {
   font-family: "Romie";
-  src: url("../Asset/Fonts/romie-regular.woff2") format("woff2"),
-       url("../Asset/Fonts/romie-regular.woff2") format("woff");
+  src: url("Asset/Fonts/romie-regular.woff2") format("woff2"),
+       url("Asset/Fonts/romie-regular.woff2") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -16,8 +16,8 @@
 /* Unica77LL Font */
 @font-face {
   font-family: "Unica77LL";
-  src: url("../Asset/Fonts/Unica77LLSub-RegularSubset.woff2") format("woff2"),
-       url("../Asset/Fonts/Unica77LLSub-RegularSubset.woff") format("woff");
+  src: url("Asset/Fonts/Unica77LLSub-RegularSubset.woff2") format("woff2"),
+       url("Asset/Fonts/Unica77LLSub-RegularSubset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -30,8 +30,8 @@
 
 
 @font-face {
-    font-family: "Romie-Regular";
-    src: url("../Asset/Fonts/romie-regular.woff2") format("woff");
+    font-family: Romie-Regular;
+    src: url("../Asset/Fonts/romie-regular.woff2") format("woff")
 }
 
 /* General Reset */
