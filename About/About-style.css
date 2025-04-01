@@ -7,8 +7,8 @@
 /* Romie Font */
 @font-face {
   font-family: "Romie";
-  src: url("../Asset/Fonts/romie-regular.woff2") format("woff2"),
-       url("../Asset/Fonts/romie-regular.woff2") format("woff");
+  src: url("Asset/Fonts/romie-regular.woff2") format("woff2"),
+       url("Asset/Fonts/romie-regular.woff2") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -22,12 +22,18 @@
   font-style: normal;
 }
 
-
 /*Milchella Font*/
 @font-face {
     font-family: "Milchella";
     src: url("../Asset/Fonts/Milchella-Regular.woff2") format("woff2");
 }
+
+
+@font-face {
+    font-family: "Romie-Regular";
+    src: url("../Asset/Fonts/romie-regular.woff2") format("woff2")
+}
+
 
 /* General Reset */
 * {
@@ -208,11 +214,12 @@ main#About section.folio div.page {
 @media screen and (max-width:700px) {
     main#About section.folio div.page {
         width: 100%;
-        padding: 0rem 2rem;
+        padding: 1rem 1rem;
         -webkit-box-orient: vertical;
         -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
+        padding-bottom: 5rem;
     }
 
     main#About section.folio div.page footer {
@@ -221,9 +228,9 @@ main#About section.folio div.page {
 }
 
 main#About section.folio div.page div.body {
-    font-family: 'romie', sans-serif;
+    font-family: 'romie-regular', sans-serif;
     font-size: 30px;
-    font-weight: normal;
+    font-weight: 900px;
     color: #333;
     line-height: 40px;
     letter-spacing: normal;
@@ -588,7 +595,7 @@ section.navigation h1[data-v-5c0ee66a] {
 }
 
 section.navigation big[data-v-5c0ee66a] {
-    font-family: Romie-Regular;
+    font-family: 'Romie-Regular';
     font-size: 2.33rem;
     line-height: 110%;
     font-weight: 100;
