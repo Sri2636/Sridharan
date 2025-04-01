@@ -7,8 +7,8 @@
 /* Romie Font */
 @font-face {
   font-family: "Romie";
-  src: url("D:/Website/Website 02/Asset/Fonts/romie-regular.woff2") format("woff2"),
-       url("D:/Website/Website 02/Asset/Fonts/romie-regular.woff2") format("woff");
+  src: url("../Asset/Fonts/romie-regular.woff2") format("woff2"),
+       url("../Asset/Fonts/romie-regular.woff2") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -22,10 +22,11 @@
   font-style: normal;
 }
 
+
 /*Milchella Font*/
 @font-face {
     font-family: "Milchella";
-    src: url("Asset/Fonts/Milchella-Regular.ttf") format("truetype");
+    src: url("../Asset/Fonts/Milchella-Regular.woff2") format("woff2");
 }
 
 /* General Reset */
