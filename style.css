@@ -180,6 +180,12 @@ body {
     padding: 5px 0;
   }
 
+    /* Remove underline from navbar logo and links */
+    .nav-links a, 
+    .logo a {
+        text-decoration: none; /* Remove underline */
+    }
+
   /* Show Nav Links When Active */
 }
 
